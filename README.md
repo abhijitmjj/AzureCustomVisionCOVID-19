@@ -36,3 +36,12 @@ const result = await model.executeAsync(image);
 ```
 
 The result is a 1D-array of probabilities.
+
+
+### Instructions for running the Chest X-ray diagnostics model 
+1) Unzip the the zip archive
+2) create conda environment usinfg environment.yml file:
+    "conda env create -f environment.yml"
+3) Go to the gui folder and run Abhijit.py file
+4) This will open up multilabel chest X-ray disease classifier 
+
