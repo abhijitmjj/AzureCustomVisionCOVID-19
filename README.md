@@ -45,3 +45,6 @@ The result is a 1D-array of probabilities.
 3) Go to the gui folder and run Abhijit.py file
 4) This will open up multilabel chest X-ray disease classifier 
 
+### For GRAD CAM visualisation of localisation of COVID-19 in lungs
+1) Run the TensorFlow_model_with_GRAD_CAM notebook, which has visualisation along 
+   with the fine tuned Xception and Densenet 121 model.
