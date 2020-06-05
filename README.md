@@ -57,13 +57,13 @@ For information on how to use these files to create and deploy through check out
 1) Run the TensorFlow_model_with_GRAD_CAM notebook, which has visualisation along 
    with the fine tuned Xception and Densenet 121 model.
 
-## Part IV Instructions for running Tensorflow.js model :
+### Part IV Instructions for running Tensorflow.js model :
 1) Install the Tensorflow.js package for custom-vision models :
 2) Replace the "model.json" with one given in the repo
-# customvision-tfjs
+#### customvision-tfjs
 NPM package for TensorFlow.js models exported from Custom Vision Service
 
-## Install
+#### Install
 ```sh
 npm install @microsoft/customvision-tfjs
 ```
@@ -75,13 +75,13 @@ Or, if you would like to use CDN,
 <script src="https://unpkg.com/@microsoft/customvision-tfjs"></script>
 ```
 
-## Usage
+#### Usage
 
 ```html
 <img id="image" src="test_image.jpg" />
 ```
 
-### Classification
+#### Classification
 ```js
 import * as cvstfjs from '@microsoft/customvision-tfjs';
 
@@ -92,3 +92,6 @@ const result = await model.executeAsync(image);
 ```
 
 The result is a 1D-array of probabilities.
+
+## Extra
+The repo contains exported ONNX model too.
