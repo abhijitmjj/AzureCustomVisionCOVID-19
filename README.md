@@ -45,7 +45,19 @@ e.g.
 For information on how to use these files to create and deploy through check out the readme.txt in the *azureml* directory (./COVID19_Docker_binary_linux/azureml/README.txt).
 
 
-## Instructions for running Tensorflow.js model :
+### Part II Instructions for running the Chest X-ray diagnostics model 
+1) Unzip the the zip archive
+2) create conda environment usinfg environment.yml file:
+    "conda env create -f environment.yml"
+3) Go to the gui folder and run Abhijit.py file
+4) This will open up multilabel chest X-ray disease classifier 
+
+
+### Part III For GRAD CAM visualisation of localisation of COVID-19 in lungs
+1) Run the TensorFlow_model_with_GRAD_CAM notebook, which has visualisation along 
+   with the fine tuned Xception and Densenet 121 model.
+
+## Part IV Instructions for running Tensorflow.js model :
 1) Install the Tensorflow.js package for custom-vision models :
 2) Replace the "model.json" with one given in the repo
 # customvision-tfjs
@@ -80,15 +92,3 @@ const result = await model.executeAsync(image);
 ```
 
 The result is a 1D-array of probabilities.
-
-
-### Instructions for running the Chest X-ray diagnostics model 
-1) Unzip the the zip archive
-2) create conda environment usinfg environment.yml file:
-    "conda env create -f environment.yml"
-3) Go to the gui folder and run Abhijit.py file
-4) This will open up multilabel chest X-ray disease classifier 
-
-### For GRAD CAM visualisation of localisation of COVID-19 in lungs
-1) Run the TensorFlow_model_with_GRAD_CAM notebook, which has visualisation along 
-   with the fine tuned Xception and Densenet 121 model.
