@@ -4,7 +4,7 @@ As we continue to face the rapid increase in confirmed Coronavirus cases in Indi
 ![workflow](AzureML.png)
 
 # Custom Vision Dockerfile
-Exported from customvision.ai.
+Exported from AbhijitCOVID19 customvision.ai.
 
 ## Build
 
