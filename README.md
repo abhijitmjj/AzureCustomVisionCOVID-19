@@ -42,7 +42,8 @@ POST http://127.0.0.1/url with a json body of { "url": "<test url here>" }
 e.g.
     curl -X POST http://127.0.0.1/url -d '{ "url": "<test url here>" }'
 
-For information on how to use these files to create and deploy through ![AzureML] ./COVID19_Docker_binary_linux/azureml/README.txt check out the readme.txt in the azureml directory.
+For information on how to use these files to create and deploy through ![AzureML] ./COVID19_Docker_binary_linux/azureml/README.txt
+check out the readme.txt in the azureml directory.
 
 
 ## Instructions for running Tensorflow.js model :
