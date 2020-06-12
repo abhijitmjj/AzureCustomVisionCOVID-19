@@ -44,6 +44,11 @@ e.g.
 
 For information on how to use these files to create and deploy through check out the readme.txt in the *azureml* directory (./COVID19_Docker_binary_linux/azureml/README.txt).
 
+#### Why use Azure Functions? 
+The serverless model differs from VMs and containers in that you only pay for the processing time used by each function as it executes.
+VMs and containers are charged while they're running - even if the applications on them are idle.
+This architecture doesn't work for every app - but when the app logic can be separated to independent units, we can test them separately,
+update them separately, and launch them in microseconds, making this approach the fastest option for deployment.
 
 ### Part II Instructions for running the Chest X-ray diagnostics model 
 1) Unzip the the zip archive
