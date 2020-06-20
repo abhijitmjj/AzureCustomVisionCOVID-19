@@ -59,11 +59,8 @@ For information on how to use these files to create and deploy through check out
 4) This will open up multilabel chest X-ray disease classifier 
 
 
-### Part III For GRAD CAM visualisation of localisation of COVID-19 in lungs
-1) Run the TensorFlow_model_with_GRAD_CAM notebook, which has visualisation along 
-   with the fine tuned Xception and Densenet 121 model.
 
-### Part IV Instructions for running Tensorflow.js model :
+### Part III Instructions for running Tensorflow.js model :
 1) Install the Tensorflow.js package for custom-vision models :
 2) Replace the "model.json" with one given in the repo
 #### customvision-tfjs
