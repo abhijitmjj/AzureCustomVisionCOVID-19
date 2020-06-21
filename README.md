@@ -52,15 +52,15 @@ For information on how to use these files to create and deploy through check out
 
 
 ### Part II Instructions for running the Chest X-ray diagnostics model 
-1) Unzip the the zip archive
-2) create conda environment usinfg environment.yml file:
+1) Unzip the the zip archive (link avaialble on request)
+2) create conda environment using environment.yml file:
     "conda env create -f environment.yml"
 3) Go to the gui folder and run Abhijit.py file
 4) This will open up multilabel chest X-ray disease classifier 
 
 
 
-### Part III Instructions for running Tensorflow.js model :
+### Part II Instructions for running Tensorflow.js model :
 1) Install the Tensorflow.js package for custom-vision models :
 2) Replace the "model.json" with one given in the repo
 #### customvision-tfjs
