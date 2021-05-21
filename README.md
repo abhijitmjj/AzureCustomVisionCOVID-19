@@ -10,7 +10,7 @@ update them separately, and launch them in microseconds, making this approach th
 ![workflow](AzureML.png)
 
 # Custom Vision Dockerfile
-Exported from AbhijitCOVID19 customvision.ai.
+Exported from AbhijitCOVID19 customvision.ai. Look at the configuration file inside dir for configuration.
 
 ## Build
 
